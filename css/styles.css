@@ -79,22 +79,22 @@ h3
     text-transform: capitalize;
 }
 
-.btn-primary
+.btn--primary
 {
     background-color: var(--color-primary);
 }
 
-.btn-heading
+.btn--heading
 {
     background-color: var(--color-heading);
 }
 
-.btn-stretched
+.btn--stretched
 {
     width: 100%;
 }
 
-.btn-small
+.btn--small
 {
     padding: 1rem 1rem;
 }
@@ -113,4 +113,77 @@ h3
 ::placeholder
 {
     color: #4b5658;
+}
+
+/* Icons */
+
+.icon
+{
+    width: 120px;
+    height: 110px;
+}
+
+.icon--primary
+{
+    fill: rgb(88, 162, 212);
+}
+
+.icon--medium
+{
+    width: 50px;
+    height: 50px;
+}
+
+.icon--small
+{
+    width: 30px;
+    height: 30px;
+}
+
+.icon--body
+{
+    fill: var(--color-body);
+}
+
+.icon-body
+{
+    position: relative;
+}
+
+.icon-content
+{
+    position: absolute;
+}
+
+.icon--above
+{
+    top: -120px;
+    right: -5px;
+}
+
+.icon--below
+{
+    bottom: -10px;
+    right: -15px;
+}
+
+.icon--square
+{
+    background-color: rgb(144, 238, 144, 50%);
+    width: 80px;
+    height: 65px;
+    border-radius: 5px;
+}
+
+.icon--circle
+{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(255, 165, 0, 70%);
+}
+
+.icon--circle--orange
+{
+    background-color: rgb(255, 165, 0, 50%);
 }
