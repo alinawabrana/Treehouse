@@ -5,3 +5,63 @@
     --color-body: #576366;
     --color-white: #fff;
 }
+
+/* Typography */
+
+html
+{
+    font-size: 62.5%;
+}
+
+body
+{
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: var(--color-body);
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
+}
+
+p
+{
+    margin-top: 0;
+}
+
+h1,h2,h3
+{
+    color: var(--color-heading);
+    margin-bottom: 1.4rem;
+}
+
+h1
+{
+    font-size: 3.2rem;
+    font-weight: 500;
+}
+
+h2
+{
+    font-size: 2.4rem;
+}
+
+h3
+{
+    font-size: 1.8rem;
+}
+
+@media  screen and (min-width: 1024px) 
+{
+    h1
+    {
+        font-size: 3.6rem;
+    }
+
+    h2
+    {
+        font-size: 2.8rem;
+    }
+
+    h3
+    {
+        font-size: 2rem;
+    }
+}
