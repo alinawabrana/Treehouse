@@ -187,3 +187,38 @@ h3
 {
     background-color: rgb(255, 165, 0, 50%);
 }
+
+
+/* Lists */
+
+.list
+{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list__inline
+{
+    display: flex;
+}
+
+.list__item
+{
+    margin: 1rem 1rem 1rem 0;
+}
+
+.list__inline .list__item
+{
+    margin-left: 1.2rem;
+}
+
+.list > a
+{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.list > a:hover
+{
+    color: rgb(0, 0, 189);
+}
