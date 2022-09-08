@@ -858,3 +858,26 @@ h3
     }
 }
 
+
+/* Guider Block */
+
+.guider__block
+{
+    font-size: 2rem;
+}
+
+.guider__heading
+{
+    color: #40484a;
+    font-weight: 800;
+}
+
+.guider__block .media
+{
+    display: flex;
+}
+
+.guider__body .media__content
+{
+    padding: 3rem 2rem;
+}
