@@ -177,10 +177,11 @@ h3
     right: -10%;
 }
 
-/* .icon--below
+.icon--below
 {
-   
-} */
+   bottom: -10%;
+   right: -10%;
+}
 
 .icon--square
 {
@@ -190,7 +191,7 @@ h3
 
 .icon--circle
 {
-    
+    border-radius: 50%;
     background-color: rgb(255, 165, 0, 70%);
 }
 
@@ -209,6 +210,7 @@ h3
 {
     width: 100%;
     max-width: 100px;
+    min-width: 75px;
 }
 
 
@@ -440,7 +442,7 @@ h3
 {
     .container
     {
-        max-width: 500px;
+        max-width: 700px;
         margin: 0 auto;
     }
 }
@@ -788,5 +790,30 @@ h3
     .hero__block .grid--1x2
     {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Courses Block */
+
+.courses__block
+{
+    font-size: 2rem;
+}
+
+.courses__block .media
+{
+    border-bottom: 1px solid #ccc;
+}
+
+@media screen and (min-width:680px) 
+{
+    .grid--1x2
+    {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .container
+    {
+        padding: 0 4rem;
     }
 }
