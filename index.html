@@ -16,27 +16,98 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="testimonial__body">
-        <header class="testimonial__header">
-          <h2 class="author__name">Malina Tran</h2>
-          <h3 class="author__city">New York,New York</h3>
-          <svg class="icon icon--primary testimonial__icon">
-            <use xlink:href="images/sprite.svg#line"></use>
-          </svg>
-        </header>
-        <div class="testimonial--content">
-          <p class="testimonial__paragraph">
-            In nine months, I transformed from being an absolute novice
-            (knowledge nothing beyond very fundamental HTML and CSS) to workng
-            professionally as a developer.
-          </p>
-          <button class="btn btn--primary btn--stretched testimonial__button">
-            malina's story
-          </button>
-        </div>
+    <nav class="nav nav__laptop">
+      <div>
+        <a href="#">
+          <div class="logo"></div>
+        </a>
       </div>
-    </div>
+      <header class="nav__body">
+        <ul class="list list__inline nav__body__inline">
+          <a href="#">
+            <li class="list__item">
+              Item 1
+            </li>
+          </a>
+          <a href="#">
+            <li class="list__item">Item 2</li>
+          </a>
+          <a href="#">
+            <li class="list__item">Item 3</li>
+          </a>
+          <a href="#">
+            <li class="list__item">Item 4</li>
+          </a>
+          <a href="#">
+            <li class="list__item">Item 5</li>
+          </a>
+          <a href="#">
+            <li class="list__item">Item 6</li>
+          </a>
+          <a href="#">
+            <li class="list__item">Sign in</li>
+          </a>
+          <a href="#">
+            <li class="list__item list__btn">
+              <button class="btn btn--primary btn--small">Free Trial</button>
+            </li>
+          </a>
+        </ul>
+      </header>
+    </nav>
+    <nav class="nav nav__mobile">
+      <a href="#">
+        <div class="logo"></div>
+      </a>
+      <section class="nav__body__bar">
+        <ul class="list list__inline">
+          <a href="#">
+            <li class="list__sign">Sign in</li>
+          </a>
+          <li class="list__item list__btn">
+            <a href="#">
+              <button class="btn btn--primary btn--small">
+                Free Trial
+              </button>
+            </a>
+          </li>
+          <li>
+            <header class="collapsible">
+              <svg class="icon icon--body collapsible__chevron">
+                <use xlink:href="images/sprite.svg#menu"></use>
+              </svg>
+              <li class="collapsible--expanded__content">
+                <ul class="list">
+                  <a href="#">
+                    <li class="list__item">
+                      Item 1
+                    </li>
+                  </a>
+                  <a href="#">
+                    <li class="list__item">Item 2</li>
+                  </a>
+                  <a href="#">
+                    <li class="list__item">Item 3</li>
+                  </a>
+                  <a href="#">
+                    <li class="list__item">Item 4</li>
+                  </a>
+                  <a href="#">
+                    <li class="list__item">Item 5</li>
+                  </a>
+                  <a href="#">
+                    <li class="list__item">Item 6</li>
+                  </a>
+                  <a href="#">
+                    <li class="list__item">Item 7</li>
+                  </a>
+                </ul>
+              </li>
+            </header>
+          </li>
+        </ul>
+      </section>
+    </nav>
   </body>
   <script src="js/main.js"></script>
 </html>
