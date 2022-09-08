@@ -616,3 +616,68 @@ h3
         display: none;
     }
 }
+
+/* Multicolor line */
+
+.multicolor__line
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.multicolor__line > div
+{
+    max-width: 100vw;
+    width: 100%;
+    height: 4px;
+}
+
+.blue
+{
+    background-color: #0b88c3;
+}
+
+.lightgreen
+{
+    background-color: #00d377;
+}
+
+.green
+{
+    background-color: #00b950;
+}
+
+.yellow
+{
+    background-color: #ffd247;
+}
+
+.orange
+{
+    background-color: #ff9800;
+}
+
+.red
+{
+    background-color: #ff464f;
+}
+
+.pink
+{
+    background-color: #ff82b3;
+}
+
+.darkpink
+{
+    background-color: #ff4385;
+}
+
+.purple
+{
+    background-color: #a47dcc;
+}
+
+.darkpurple
+{
+    background-color: #875bb5;
+}
