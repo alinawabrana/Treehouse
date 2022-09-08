@@ -267,7 +267,7 @@ h3
 {
     .grid--1x4
     {
-        grid-template-columns: repeat((3,1fr));
+        grid-template-columns: repeat(4,1fr);
     }
 }
 
@@ -573,6 +573,45 @@ h3
     }
 
     .nav__mobile
+    {
+        display: none;
+    }
+}
+
+
+/* New Inline Nav */
+
+.inline__nav
+{
+    text-align: center;
+}
+
+.contain > a
+{
+    text-decoration: none;
+    color: var(--color-body);
+}
+
+.contain
+{
+    max-width: 100vw;
+    width: 100%;
+    border-bottom: 5px solid var(--color-body);
+}
+
+.contain:hover
+{
+    border-bottom: 5px solid dodgerblue;
+}
+
+.contain > a :hover
+{
+    color: dodgerblue;
+}
+
+@media screen and (max-width:900px) 
+{
+    .inline__nav
     {
         display: none;
     }
