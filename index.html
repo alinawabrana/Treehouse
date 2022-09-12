@@ -4,7 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta property="og:title" content="Treehouse..." />
+    <meta property="og:description" content="Treehouse..." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="http://" />
+    <meta property="og:url" content="https://teamtreehouse.com" />
+    <title>TeamTreehouse</title>
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -16,6 +21,611 @@
     />
   </head>
   <body>
+    <header class="hero__block">
+      <nav class="nav nav__laptop container__nav">
+        <div>
+          <a href="#">
+            <div class="logo"></div>
+          </a>
+        </div>
+        <header class="nav__body">
+          <ul class="list list__inline nav__body__inline">
+            <a href="#">
+              <li class="list__item">
+                Item 1
+              </li>
+            </a>
+            <a href="#">
+              <li class="list__item">Item 2</li>
+            </a>
+            <a href="#">
+              <li class="list__item">Item 3</li>
+            </a>
+            <a href="#">
+              <li class="list__item">Item 4</li>
+            </a>
+            <a href="#">
+              <li class="list__item">Item 5</li>
+            </a>
+            <a href="#">
+              <li class="list__item">Item 6</li>
+            </a>
+            <a href="#">
+              <li class="list__item">Sign in</li>
+            </a>
+            <a href="#">
+              <li class="list__item list__btn">
+                <button class="btn btn--primary btn--small">Free Trial</button>
+              </li>
+            </a>
+          </ul>
+        </header>
+      </nav>
+      <nav class="nav nav__mobile container__nav">
+        <a href="#">
+          <div class="logo"></div>
+        </a>
+        <section class="nav__body__bar">
+          <ul class="list list__inline">
+            <a href="#">
+              <li class="list__sign">Sign in</li>
+            </a>
+            <li class="list__item list__btn">
+              <a href="#">
+                <button class="btn btn--primary btn--small">
+                  Free Trial
+                </button>
+              </a>
+            </li>
+            <li>
+              <header class="collapsible">
+                <svg class="icon icon--body collapsible__chevron">
+                  <use xlink:href="images/sprite.svg#menu"></use>
+                </svg>
+                <li class="collapsible--expanded__content">
+                  <ul class="list">
+                    <a href="#">
+                      <li class="list__item">
+                        Item 1
+                      </li>
+                    </a>
+                    <a href="#">
+                      <li class="list__item">Item 2</li>
+                    </a>
+                    <a href="#">
+                      <li class="list__item">Item 3</li>
+                    </a>
+                    <a href="#">
+                      <li class="list__item">Item 4</li>
+                    </a>
+                    <a href="#">
+                      <li class="list__item">Item 5</li>
+                    </a>
+                    <a href="#">
+                      <li class="list__item">Item 6</li>
+                    </a>
+                    <a href="#">
+                      <li class="list__item">Item 7</li>
+                    </a>
+                  </ul>
+                </li>
+              </header>
+            </li>
+          </ul>
+        </section>
+      </nav>
+      <div class="grid grid--1x2 container">
+        <div class="hero__header">
+          <h1 class="hero__heading">
+            Best online coding classes for at-home learning
+          </h1>
+          <div class="hero__body">
+            <p class="tagline">
+              Learn to code, design, and more
+            </p>
+            <p class="tagline">
+              --all on your own time
+            </p>
+            <p class="plan__tagline">
+              <span class="plan">Try it free for 7 days,</span> then $25 a month
+            </p>
+            <div class="input__group">
+              <input type="text" placeholder="Email address" class="input" />
+              <button class="btn btn--heading btn--stretched">Join Now</button>
+            </div>
+            <a href="#" class="plan">Schedule a demo</a>
+          </div>
+        </div>
+        <div>
+          <img src="/images/hero.webp" alt="" class="hero__image" />
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="grid grid--1x4 inline__nav">
+        <div class="contain">
+          <a href="#">
+            <h1>Courses</h1>
+          </a>
+        </div>
+        <div class="contain">
+          <a href="#">
+            <h1>Techdegree</h1>
+          </a>
+        </div>
+        <div class="contain">
+          <a href="#">
+            <h1>Teams</h1>
+          </a>
+        </div>
+        <div class="contain">
+          <a href="#">
+            <h1>How it works</h1>
+          </a>
+        </div>
+      </div>
+    </div>
+    <section class="container courses__block">
+      <div class="grid grid--1x2">
+        <div class="media">
+          <div class="media__image">
+            <div class="icon-body">
+              <svg class="icon icon--primary icon--responsive">
+                <use xlink:href="images/sprite.svg#play"></use>
+              </svg>
+              <span class="icon--content icon--square icon--above"></span>
+            </div>
+          </div>
+          <div class="media__body">
+            <h2 class="media__heading">
+              Expert-led video courses for beginners and other skill levels
+            </h2>
+            <p class="media__content">
+              Find all the instructions you need to get an entry-level job in
+              tech, even if you've never coded. Not a beginner? Test out of
+              subjects you already know with Compass.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <div class="icon-body">
+              <svg class="icon icon--responsive icon--primary">
+                <use xlink:href="images/sprite.svg#puzzle"></use>
+              </svg>
+              <span class="icon--content icon--circle icon--below"></span>
+            </div>
+          </div>
+          <div class="media__body">
+            <h2 class="media__heading">
+              In-Demand Topics For Developers and Designers
+            </h2>
+            <p class="media__content">
+              Stay up to date with your skills. Learn the languages, frameworks,
+              and principles required for the most in-demand careers in tech.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="grid grid--1x2">
+        <div class="media">
+          <div class="media__image">
+            <div class="icon-body">
+              <svg class="icon icon--responsive icon--primary">
+                <use xlink:href="images/sprite.svg#ladder"></use>
+              </svg>
+              <span
+                class="icon--content icon--circle icon--circle--orange icon--above"
+              ></span>
+            </div>
+          </div>
+          <div class="media__body">
+            <h2 class="media__heading">
+              Segment your learning with Tracks
+            </h2>
+            <p class="media__content">
+              Each of our Tracks is a mini-program designed to teach you a
+              particular set of skills. Need to learn a new skill set? Enroll in
+              a Track, and your learning path is all mapped out.
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <div class="icon-body">
+              <svg class="icon icon--responsive icon--primary">
+                <use xlink:href="images/sprite.svg#ipad"></use>
+              </svg>
+              <span class="icon--content icon--square icon--below"></span>
+            </div>
+          </div>
+          <div class="media__body">
+            <h2 class="media__heading">
+              Interactive learning
+            </h2>
+            <p class="media__content">
+              Our courses have quizzes and code challenges to keep you
+              engaged—because the best way to learn is by practicing.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="block">
+      <h2 class="block__heading">Start your learning journey today!</h2>
+      <h3 class="block__content">with a free 7-day trial, then $25/month</h3>
+      <button class="btn btn--primary">Sign Up Now</button>
+    </div>
+    <section class="container plan__block">
+      <div class="grid grid--1x3">
+        <div class="media">
+          <div class="media__image">
+            <div class="icon-body">
+              <svg class="icon icon--primary icon--responsive">
+                <use xlink:href="images/sprite.svg#compass"></use>
+              </svg>
+              <span class="icon--content icon--square icon--above"></span>
+            </div>
+          </div>
+          <div class="media__body">
+            <h2 class="media__heading">
+              100 Days of Code
+            </h2>
+            <p class="media__content">
+              Transform your life by committing to learning for 30 minutes a day
+              for a hundred days. You'll get email reminders, plus a
+              complementary podcast, to help you in your learning journey.
+            </p>
+            <button class="btn btn--primary btn--stretched">
+              Start Your Journey
+            </button>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <div class="icon-body">
+              <svg class="icon icon--responsive icon--primary">
+                <use xlink:href="images/sprite.svg#message"></use>
+              </svg>
+              <span class="icon--content icon--circle icon--below"></span>
+            </div>
+          </div>
+          <div class="media__body">
+            <h2 class="media__heading">
+              Free resources
+            </h2>
+            <p class="media__content">
+              Our Tech Explorer's Toolkit is packed with free resources for
+              anyone curious about getting a job in tech. No matter what stage
+              you're at in your journey into tech, our bi-monthly Toolkit will
+              bring the resources you need straight to your inbox.
+            </p>
+            <button class="btn btn--primary btn--stretched">
+              join our mailing list
+            </button>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <div class="icon-body">
+              <svg class="icon icon--responsive icon--primary">
+                <use xlink:href="images/sprite.svg#networking"></use>
+              </svg>
+              <span
+                class="icon--content icon--circle icon--circle--orange icon--above"
+              ></span>
+            </div>
+          </div>
+          <div class="media__body">
+            <h2 class="media__heading">
+              Networking
+            </h2>
+            <p class="media__content">
+              Join a lively and supportive community of students on the
+              Treehouse forums to network, get help, and hang out with others
+              who are studying the same topics as you.
+            </p>
+            <button class="btn btn--primary btn--stretched">
+              network with us
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="badges">
+      <div class="container">
+        <img src="/images/badges.webp" alt="" />
+      </div>
+    </div>
+    <section class="grid grid--1x2 container guider__block">
+      <header class="guider__header">
+        <h1 class="guider__heading">
+          Build a Portfolio, Create a Network, and Land Your Dream Programming
+          Job
+        </h1>
+        <p class="guider__content">
+          Techdegree is a bootcamp-tier program that guides you through a full
+          curriculum that includes a portfolio of curated projects, workshops,
+          quizzes, and access to the exclusive Treehouse Slack community.
+        </p>
+        <button class="btn btn--primary btn--stretched">
+          Explore Techdegree
+        </button>
+      </header>
+      <div class="guider__body">
+        <div class="media">
+          <div class="media__image">
+            <div class="icon-body">
+              <svg class="icon icon--medium icon--body">
+                <use xlink:href="images/sprite.svg#dotted"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="media__body">
+            <p class="media__content">
+              Curated Curriculum and Projects
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <div class="icon-body">
+              <svg class="icon icon--medium icon--body">
+                <use xlink:href="images/sprite.svg#folder"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="media__body">
+            <p class="media__content">
+              Project Reviews
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <div class="icon-body">
+              <svg class="icon icon--medium icon--body">
+                <use xlink:href="images/sprite.svg#networking2"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="media__body">
+            <p class="media__content">
+              Exclusive Slack Community
+            </p>
+          </div>
+        </div>
+        <div class="media">
+          <div class="media__image">
+            <div class="icon-body">
+              <svg class="icon icon--medium icon--body">
+                <use xlink:href="images/sprite.svg#plus"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="media__body">
+            <p class="media__content">
+              Plus everything from Courses
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="block block__sponser">
+      <h2 class="block__heading">Graduates starting their career at</h2>
+    </div>
+    <section class="container sponser__block">
+      <div class="sponser__image">
+        <img src="/images/nike.webp" alt="" class="images" />
+      </div>
+      <div class="sponser__image">
+        <img src="/images/adobe.webp" alt="" class="images" />
+      </div>
+      <div class="sponser__image">
+        <img src="/images/mailchimp.webp" alt="" class="images" />
+      </div>
+      <div class="sponser__image">
+        <img src="/images/vacasa.webp" alt="" class="images" />
+      </div>
+    </section>
+    <section class="container sponser__block">
+      <div class="sponser__image">
+        <img src="/images/hubspot.webp" alt="" class="images" />
+      </div>
+      <div class="sponser__image">
+        <img src="/images/chegg.webp" alt="" class="images" />
+      </div>
+      <div class="sponser__image">
+        <img src="/images/airbnb.webp" alt="" class="images" />
+      </div>
+      <div class="sponser__image">
+        <img src="/images/verizon.webp" alt="" class="images" />
+      </div>
+    </section>
+    <div class="control__block">
+      <section class="container">
+        <div class="media">
+          <div>
+            <img src="/images/control-panel.webp" alt="" />
+          </div>
+          <div class="media__body">
+            <h2 class="media__heading control__heading">
+              Not sure where to start?
+            </h2>
+            <p class="media__content control__content">
+              No problem, we are here to help! Just answer a couple of questions
+              related to your interests and goals, and we will help set you on
+              the right path on your learning journey.
+            </p>
+            <button class="btn btn--stretched control__btn">Take Quiz</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="block block__testimonial">
+      <h2 class="block__heading">Success stories with Treehouse</h2>
+      <h3 class="block__content">
+        Treehouse's mission is to diversify the tech industry through accessible
+        education, unlocking the door to opportunity, and empowering people to
+        achieve their dreams.
+      </h3>
+    </div>
+    <div class="container container__card">
+      <div class="testimonial testimonial__block">
+        <div class="testimonial__pic">
+          <picture>
+            <source type="image/webp" srcset="images/Hammad PPS.webp" />
+            <source type="image/jpeg" srcset="images/Hammad PPS.jpeg" />
+            <img class="testimonial__image" src="images/Hamaad PPS.jpeg" alt="" />
+          </picture>
+        </div>
+        <div class="testimonial__body">
+          <header class="testimonial__header">
+            <h2 class="author__name">Malina Tran</h2>
+            <h3 class="author__city">New York,New York</h3>
+            <svg class="icon icon--primary testimonial__icon">
+              <use xlink:href="images/sprite.svg#line"></use>
+            </svg>
+          </header>
+          <div class="testimonial--content">
+            <p class="testimonial__paragraph">
+              In nine months, I transformed from being an absolute novice (knowledge
+              nothing beyond very fundamental HTML and CSS) to workng professionally
+              as a developer. The great thing is that I was learning with Treehouse
+              every step along the wa. After getting my feet wet with HTML and CSS,
+              I decided to tackle Ruby, a back-end programming language with syntax
+              that is pretty begineer friendly...
+            </p>
+            <button class="btn btn--primary btn--stretched testimonial__button">
+              malina's story
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial__direction">
+        <div><a href="#" class="testimonial__previous">Previous</a></div>
+        <div><a href="#" class="testimonial__next">Next</a></div>
+      </div>
+    </div>
+    </div>
+    <div class="q_a__block">
+      <div class="container">
+        <h1 class="q_a__heading">Q&A</h1>
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">
+              How long does my subscription last
+            </h2>
+            <span class="collapsible__background">
+              <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg>
+            </span>
+          </header>
+          <div class="collapsible--expanded__content">
+            Treehouse subscriptions are monthly, with the option to cancel your
+            subscription at any time.
+          </div>
+        </div>
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">
+              Do you have a free trial?
+            </h2>
+            <span class="collapsible__background">
+              <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg>
+            </span>
+          </header>
+          <div class="collapsible--expanded__content">
+            Yes! We offer everyone a seven-day free trial. You can take
+            advantage of it by visiting our <a href="#" class="q_a__tag">sign-up</a> page.
+          </div>
+        </div>
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">
+              What can I do if I'm stuck on a learning task?
+            </h2>
+            <span class="collapsible__background">
+              <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg>
+            </span>
+          </header>
+          <div class="collapsible--expanded__content">
+            Our <a href="#" class="q_a__tag">Community</a href="#"> is a great resource if you're stuck! It's also a great
+            place to practice code reviews. If you're unable to get a
+            satisfactory response from our Community, you can send an email to
+            <a href="#" class="q_a__tag">help@teamtreehouse.com</a href="#"> for help from our Support team.
+          </div>
+        </div>
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">
+              How do I download videos for offline viewing?
+            </h2>
+            <span class="collapsible__background">
+              <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg>
+            </span>
+          </header>
+          <div class="collapsible--expanded__content">
+            Video downloads are available only to Courses Plus subscribers. If
+            you're a Courses Plus subscriber, you can download the video(s)
+            directly from the site.
+          </div>
+        </div>
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">
+              Do you offer a Group Membership at a discounted rate?
+            </h2>
+            <span class="collapsible__background">
+              <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg>
+            </span>
+          </header>
+          <div class="collapsible--expanded__content">
+            We do offer group membership discounts. Please fill out the form
+            <a href="#" class="q_a__tag">here</a href="#"> and someone from our Organizations team will follow up with
+            you.
+          </div>
+        </div>
+        <div class="collapsible">
+          <header class="collapsible__header">
+            <h2 class="collapsible__heading">
+              What if I have a question that isn't answered here?
+            </h2>
+            <span class="collapsible__background">
+              <svg class="icon icon--white collapsible__chevron">
+                <use xlink:href="images/sprite.svg#chevron"></use>
+              </svg>
+            </span>
+          </header>
+          <div class="collapsible--expanded__content">
+            Refer to our full-length <a href="#" class="q_a__tag">FAQ page</a href="#">, or reach out directly to
+            <a href="#" class="q_a__tag">help@teamtreehouse.com.</a href="#"> We're here to help!
+          </div>
+        </div>
+        <button class="btn btn--primary btn--stretched q_a__btn">Start Your Free Trial</button>
+      </div>
+    </div>    
+    <div class="multicolor__line">
+      <div class="blue"></div>
+      <div class="lightgreen"></div>
+      <div class="green"></div>
+      <div class="yellow"></div>
+      <div class="orange"></div>
+      <div class="red"></div>
+      <div class="pink"></div>
+      <div class="darkpink"></div>
+      <div class="purple"></div>
+      <div class="darkpurple"></div>
+    </div>
     <footer class="footer__block">
       <div class="container">
         <div class="footer__list">
@@ -38,7 +648,7 @@
             </a>
             <div class="footer__inline">
               <ul class="list">
-                <h3 class="footer__heading">Treehouse</h3>
+                <h3 class="footer__heading">Techdegree</h3>
                 <li class="list__item footer__item">About</li>
                 <li class="list__item footer__item">Blog</li>
                 <li class="list__item footer__item">Careers</li>
@@ -46,7 +656,7 @@
                 <li class="list__item footer__item">Stories</li>
               </ul>
               <ul class="list">
-                <h3 class="footer__heading">Treehouse</h3>
+                <h3 class="footer__heading">Tracks</h3>
                 <li class="list__item footer__item">About</li>
                 <li class="list__item footer__item">Blog</li>
                 <li class="list__item footer__item">Careers</li>
@@ -54,7 +664,7 @@
                 <li class="list__item footer__item">Stories</li>
               </ul>
               <ul class="list">
-                <h3 class="footer__heading">Treehouse</h3>
+                <h3 class="footer__heading">Courses</h3>
                 <li class="list__item footer__item">About</li>
                 <li class="list__item footer__item">Blog</li>
                 <li class="list__item footer__item">Careers</li>
@@ -65,15 +675,10 @@
           </div>
           <div>
             <ul class="list">
-              <h3 class="footer__heading">Treehouse</h3>
+              <h3 class="footer__heading">Explore</h3>
               <li class="list__item footer__item">About</li>
               <li class="list__item footer__item">Blog</li>
               <li class="list__item footer__item">Careers</li>
-              <li class="list__item footer__item">Community</li>
-              <li class="list__item footer__item">Stories</li>
-              <li class="list__item footer__item">Shop</li>
-              <li class="list__item footer__item">Contact</li>
-              <li class="list__item footer__item">Gift Card</li>
             </ul>
           </div>
         </div>
@@ -120,7 +725,7 @@
           <p><span>&copy;</span> 2022 Treehouse Island, Inc.</p>
         </div>
       </div>
-    </footer>
+    </footer>    
   </body>
   <script src="js/main.js"></script>
 </html>
