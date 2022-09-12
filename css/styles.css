@@ -399,23 +399,59 @@ h3
     margin-top: 0;
 }
 
+.testimonial__image
+{
+    width: 100%;
+}
+
 .testimonial__button
 {
     padding: 2rem 3.5rem;
     font-weight: 800;
 }
 
+.testimonial__block
+{
+    margin: 3rem;
+}
+
 @media screen and (min-width:680px) 
 {
+    .testimonial__block
+    {
+        margin: 0;
+    }
+
+    .testimonial
+    {
+        display: flex;
+        border-radius: 5px;
+        border: 2px solid #ccc;
+    }
+
     .testimonial__button
     {
         width: auto;
     }
 
-    .testimonila__image
+    .testimonial__pic
     {
-        width: 100%;
-        max-width: 600px;
+        width: 30%;
+        overflow: hidden;
+    }
+
+    .testimonial__image
+    {
+        height: 100%;
+        width: auto;
+        margin-left: -150px;
+    }
+
+    .testimonial__body
+    {
+        padding: 8rem;
+        margin-left: 2rem;
+        width: 70%;
     }
 }
 

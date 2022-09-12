@@ -16,25 +16,43 @@
     />
   </head>
   <body>
-    <div class="control__block">
-      <section class="container">
-        <div class="media">
-          <div>
-            <img src="/images/control-panel.webp" alt="" />
-          </div>
-          <div class="media__body">
-            <h2 class="media__heading control__heading">
-              Not sure where to start?
-            </h2>
-            <p class="media__content control__content">
-              No problem, we are here to help! Just answer a couple of questions
-              related to your interests and goals, and we will help set you on
-              the right path on your learning journey.
+    <div class="container container__card">
+      <div class="testimonial testimonial__block">
+        <div class="testimonial__pic">
+          <picture>
+            <source type="image/webp" srcset="images/Hammad PPS.webp" />
+            <source type="image/jpeg" srcset="images/Hammad PPS.jpeg" />
+            <img
+              class="testimonial__image"
+              src="images/Hamaad PPS.jpeg"
+              alt=""
+            />
+          </picture>
+        </div>
+        <div class="testimonial__body">
+          <header class="testimonial__header">
+            <h2 class="author__name">Malina Tran</h2>
+            <h3 class="author__city">New York,New York</h3>
+            <svg class="icon icon--primary testimonial__icon">
+              <use xlink:href="images/sprite.svg#line"></use>
+            </svg>
+          </header>
+          <div class="testimonial--content">
+            <p class="testimonial__paragraph">
+              In nine months, I transformed from being an absolute novice
+              (knowledge nothing beyond very fundamental HTML and CSS) to workng
+              professionally as a developer. The great thing is that I was
+              learning with Treehouse every step along the wa. After getting my
+              feet wet with HTML and CSS, I decided to tackle Ruby, a back-end
+              programming language with syntax that is pretty begineer
+              friendly...
             </p>
-            <button class="btn btn--stretched control__btn">Take Quiz</button>
+            <button class="btn btn--primary btn--stretched testimonial__button">
+              malina's story
+            </button>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   </body>
   <script src="js/main.js"></script>
