@@ -921,3 +921,41 @@ h3
         padding: 0;
     }
 }
+
+
+/* Media Block */
+
+.control__block
+{
+    background-color: #3f4850;
+}
+
+.control__block img
+{
+    width: 100%;
+}
+
+.control__heading
+{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.control__content
+{
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+
+.control__heading, .control__content
+{
+    color: var(--color-white);
+}
+
+.control__btn
+{
+    color: var(--color-body);
+    margin-left: 0;
+    margin-bottom: 6rem;
+}
