@@ -881,3 +881,43 @@ h3
 {
     padding: 3rem 2rem;
 }
+
+
+/* Sponser Block */
+
+.sponser__block
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.sponser__image
+{
+    padding: 2.4rem;
+    border-right: 1px solid #ccc;
+    flex-basis: auto;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.images
+{
+    width: 140px;
+    height: 106px;
+}
+
+@media screen and (max-width:680px) 
+{
+    .sponser__block
+    {
+        display: block;
+    }
+
+    .sponser__image
+    {
+        border: 0;
+        padding: 0;
+    }
+}
