@@ -995,3 +995,43 @@ h3
     margin-left: 0;
     margin-bottom: 6rem;
 }
+
+
+/* Testimonial Block */
+
+.testimonial__direction
+{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8rem;
+}
+
+.testimonial__direction a
+{
+    text-decoration: none;
+    color: var(--color-body);
+    font-weight: bold;
+}
+
+.testimonial__previous
+{
+    margin: 2rem;
+}
+
+.testimonial__next
+{
+    margin: 2rem;
+}
+
+.testimonial__previous::before
+{
+    content: '<--';
+    margin-right: 5px;
+}
+
+.testimonial__next::after
+{
+    content: '-->';
+    margin-left: 5px;
+}
