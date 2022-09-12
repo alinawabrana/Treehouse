@@ -1035,3 +1035,43 @@ h3
     content: '-->';
     margin-left: 5px;
 }
+
+
+/* Q & A Block */
+
+.q_a__block
+{
+    padding: 6rem 4rem;
+    background-color: #edeff0;
+}
+
+.q_a__heading
+{
+    font-weight: 900;
+}
+
+.q_a__block .collapsible__header
+{
+    padding: 2rem 0;
+    border-bottom: 1px solid #d4d9dd;
+    margin-bottom: 2rem;
+}
+
+.q_a__tag
+{
+    text-decoration: none;
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.q_a__tag:hover
+{
+    color: var(--color-body)
+}
+
+.q_a__btn
+{
+    display: flex;
+    margin: 4rem auto;
+    justify-self: center;
+}
